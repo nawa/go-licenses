@@ -1,40 +1,9 @@
 # Licenses tool
 
-> This is not an officially supported Google product.
-
 `go-licenses` analyzes the dependency tree of a Go package/binary. It can output a
 report on the libraries used and under what license they can be used. It can
 also collect all of the license documents, copyright notices and source code
 into a directory in order to comply with license terms on redistribution.
-
-## Before you start
-
-To use this tool, make sure:
-
-* [You have Go v1.16 or later installed](https://golang.org/dl/).
-* Change directory to your go project, **for example**:
-
-  ```shell
-  git clone git@github.com:google/go-licenses.git
-  cd go-licenses
-  ```
-
-* Download required modules:
-
-  ```shell
-  go mod download
-  ```
-
-## Installation
-
-Use the following command to download and install this tool:
-
-```shell
-go install github.com/google/go-licenses@latest
-```
-
-If you were using `go get` to install this tool, note that
-[starting in Go 1.17, go get is deprecated for installing binaries](https://go.dev/doc/go-get-install-deprecation).
 
 ## Reports
 
